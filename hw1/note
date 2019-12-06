@@ -1,0 +1,10 @@
+1) Binh discussion:
+  - Hadoop is slower than Apache Spark due to lack of memory computation
+  - careful of spaces in folder name
+  - run on powershell windows:.\bin\spark-submit "C:\hw\test2.py"
+  - run on anaconda prompt: python test2.py
+  - when you write code, pyspark connect a python driver with the master node of spark, then spark directs to its worker
+2) Youtube tutorial:
+  - spark rdd general workflow: generate initial rdds from external data, apply transformations, launch actions 
+  - create rdds:
+    + take an existing collection and pass it to sparkcontext's parallelize method

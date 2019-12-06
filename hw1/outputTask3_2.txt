@@ -1,0 +1,1 @@
+{"m1": 157.57943844795227, "m2": 11.873284816741943, "explanation": "The second method needs less time compared to the first one because it accesses less amount of data. In the \"take\" method, which is a transformation, only a portion of the data is accessed and acted on while in the \"collect\" method the whole output is accessed"}

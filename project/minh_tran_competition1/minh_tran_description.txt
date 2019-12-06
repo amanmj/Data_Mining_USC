@@ -1,0 +1,18 @@
+Method Description:
+The model follows closely the guidance in HW3. User-based collaborative filtering is utilized. To predict a rating of a business B by user U, gather similar users to U based on how they rate businesses in general; then evaluate that set of users how they rate buusiness B and deduce how U might rate B. Ratings are normalized by the average. Exception for pair of (user U, business B) is handled as followed: 
+ if B has not been rated by any user and U have not rated any business, assign 3.0. 
+ if B has not been rated by any user, assign rating of average rating of user U 
+ if U has not rated any business, assign rating of average rating of business B. 
+
+Error Distribution:
+>=0 and <1: 97445
+>=1 and <2: 35932
+>=2 and <3: 7345
+>=3 and <4: 1237
+>=4: 85
+
+RMSE:
+1.047477022673242
+
+Execution Time:
+141.58274579048157
